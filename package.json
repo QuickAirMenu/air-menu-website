@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "predeploy": "node tools/updateBase.js",
     "deploy": "npm run predeploy && npm run build",
-    "deploy-all": "node tools/deploy.cjs"
+    "deploy-all": "node tools/airmenu-deploy-pro.cjs"
   },
   "dependencies": {
     "basic-ftp": "^5.0.5",
